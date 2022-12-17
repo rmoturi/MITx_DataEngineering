@@ -1,0 +1,106 @@
+### YOUR SOLUTION HERE
+ans1a = ['Data','Analyst','Python',3.14]
+ans1b = 'yes'
+
+# YOUR CODE HERE
+print(ans1a, ans1b)
+
+
+### YOUR SOLUTION HERE
+ans2a = [False,'Apple',1,3.14]
+print(ans2a)
+ans2a[0] = True
+ans2b = ans2a
+
+# YOUR CODE HERE
+print(ans2b)
+
+
+### YOUR SOLUTION HERE
+ans3a = [False, 'Apple', 1, 3.14]
+print(ans3a)
+ans3a.append('pop')
+print(ans3a)
+ans3b = ans3a
+print(ans3b)
+
+# YOUR CODE HERE
+
+
+### YOUR SOLUTION HERE
+ans4a = [False, 'Apple', 2, 2.14]
+print(ans4a)
+ans4a.pop(1)
+ans4b = ans4a
+print(ans4b)
+
+# YOUR CODE HERE
+
+
+### YOUR SOLUTION HERE
+ans5 = list(('Python', 'list', 'container', 11))
+
+# YOUR CODE HERE
+print(ans5)
+
+### YOUR SOLUTION HERE
+ans6a = ['Python', 'list', 'container', 11]
+ans6b = len(ans6a)
+
+# YOUR CODE HERE
+print(ans6b)
+
+
+### YOUR SOLUTION HERE
+ans7a = ('Hello', 'world', 'Python', 'Assignment')
+ans7b = len(ans7a)
+
+# YOUR CODE HERE
+print(ans7b)
+
+
+### YOUR SOLUTION HERE
+ans8 = 'yes'
+
+
+# YOUR CODE HERE
+
+
+
+### YOUR SOLUTION HERE
+ans9 = tuple(('Python', 'list', 'tuple', '14.67'))
+
+
+# YOUR CODE HERE
+print(ans9)
+
+
+
+
+### YOUR SOLUTION HERE
+ans10 = 'yes'
+
+
+# YOUR CODE HERE
+x = ['a','b']
+y = tuple((1,x))
+print(y)
+
+
+
+
+### YOUR SOLUTION HERE
+ans11a = {1,2,3,4}
+ans11b = len(ans11a)
+
+
+# YOUR CODE HERE
+print(ans11a)
+print(ans11b)
+
+
+### YOUR SOLUTION HERE
+ans12 = {'Python', 'list', 'tuple', 14.67}
+
+
+# YOUR CODE HERE

@@ -1,0 +1,90 @@
+ans1a = {'Name':'Matthew', 'Last Name': 'Smith', 'University':'MIT'}
+
+# YOUR CODE HERE
+print(ans1a)
+
+
+# YOUR CODE HERE
+ans1a['Name'] = 'Favio'
+print(ans1a)
+
+
+ans1a = {'Name': 'Matthew', 'Last Name': 'Smith', 'University': 'MIT'}
+ans1a['First Name'] = ans1a.pop('Name')
+ans3 = ans1a
+
+
+ans4 = {'StudentID':123456, 'Grade': 75, 'Late': False}
+print(ans4)
+ans4['Updated Average'] = 79
+print(ans4)
+
+
+del ans4['Late']
+ans5 = ans4
+
+
+### YOUR SOLUTION HERE
+ans6 = ans5.copy()
+print(ans6)
+
+
+
+### YOUR SOLUTION HERE
+flower1 = {'Name':'Tulip','Sepal length':2.7}
+flower2 = {'Name':'Lily','Sepal length':3.2}
+flowers = {'Flower 1': flower1, 'Flower 2':flower2}
+
+ans7 = flowers
+
+# YOUR CODE HERE
+print(flowers)
+print(ans7)
+
+
+
+### YOUR SOLUTION HERE
+ans8a = {'Name':'Rose', 'Perennial':True, 'Sepal width':1.7 }
+print(ans8a)
+ans8b = ans8a.clear()
+
+# YOUR CODE HERE
+print(ans8a)
+print(ans8b)
+
+
+
+
+### YOUR SOLUTION HERE
+ans9a = {'Name':'Geranium', 'Perennial':False, 'Sepal width':0.5 }
+ans9b = ans9a['Name']
+
+# YOUR CODE HERE
+print(ans9a)
+print(ans9b)
+
+
+
+### YOUR SOLUTION HERE
+ans10a = {'Name':'Apricot Tree', 'Perennial':True, 'Height':8 }
+ans10b = ans10a.keys()
+ans10c = str(type(ans10b))
+
+# YOUR CODE HERE
+print(ans10a)
+print(ans10b)
+print(str(type(ans10b)))
+print(ans10c)
+
+
+ans11a = {1: 'one', 2: 'three'}
+ans11b = {2: 'two'}
+ans11a.update(ans11b)
+
+
+### YOUR SOLUTION HERE
+ans12a = {1: 'one', 2: 'two'}
+ans12b = ans12a.values()
+
+# YOUR CODE HERE
+print(ans12b)
